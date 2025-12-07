@@ -6,8 +6,7 @@ from pathlib import Path
 import re
 
 """
-22-Nov-25: Attempt to convert the program into an entire class. 
-Break up each task into a method within, then see how to translate from the lines into a method.
+Site link removed for personal reasons. Just grabs image from a site, and using the website's URL patterns, scraps all images from the main page over a specified day range.
 """
 
 class HTMLScraper: #Object for SCRAPER, not the image
@@ -127,4 +126,5 @@ for i in range(15):
     sinfest.load_page()
     sinfest.parse_html()
     sinfest.scrape_comic()
+
 
